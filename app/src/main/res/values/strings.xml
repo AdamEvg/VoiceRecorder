@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Voice Recorder</string>
+    <string name="records_list">Список</string>
+    <string name="records">Запись</string>
+    <string name="record_fragment">RecordFragment</string>
+    <string name="list_fragment">ListFragment</string>
+</resources>
