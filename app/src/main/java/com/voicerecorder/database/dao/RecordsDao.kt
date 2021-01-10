@@ -5,7 +5,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.voicerecorder.database.RecordingItem
+import com.voicerecorder.database.entities.RecordingItem
 
 @Dao
 interface RecordsDao {

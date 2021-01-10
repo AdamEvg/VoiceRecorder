@@ -5,6 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.voicerecorder.database.dao.RecordsDao
+import com.voicerecorder.database.entities.RecordingItem
 
 @Database(entities = [RecordingItem::class], version = 1, exportSchema = false)
 abstract class RecordDatabase : RoomDatabase() {

@@ -1,4 +1,4 @@
-package com.voicerecorder.database
+package com.voicerecorder.database.entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

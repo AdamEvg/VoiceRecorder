@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".listRecord.ListRecordFragment">
+    tools:context="info.fandroid.recorder.listRecord.ListRecordFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/list_fragment" />
+    <data>
 
-</FrameLayout>
+        <variable
+            name="listRecordViewModel"
+            type="com.voicerecorder.listRecord.ListRecordViewModel" />
+    </data>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/item_list_record"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</layout>

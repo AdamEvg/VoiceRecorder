@@ -4,7 +4,7 @@ import androidx.room.Room
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
 import com.voicerecorder.database.RecordDatabase
-import com.voicerecorder.database.RecordingItem
+import com.voicerecorder.database.entities.RecordingItem
 import com.voicerecorder.database.dao.RecordsDao
 import junit.framework.Assert.assertEquals
 import org.junit.After
