@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name" translatable="false">Voice Recorder</string>
+    <string name="records_list" >List</string>
+    <string name="records" >Record</string>
+    <string name="record_fragment">RecordFragment</string>
+    <string name="list_fragment">ListFragment</string>
+
+    <string name="default_file_name" >Record</string>
+    <string name="toast_recording_finish" >Record saved</string>
+    <string name="notification_recording" >Recording…</string>
+    <string name="toast_recording_start" >Recording started</string>
+    <string name="file_is_not_exist_text" >Audio not found</string>
+    <string name="file_deleted_text" >Audio deleted</string>
+    <string name="dialog_title_delete" >Confirm the deletion</string>
+    <string name="dialog_text_delete" >Delete this record?</string>
+    <string name="dialog_action_yes" >Yes</string>
+    <string name="dialog_action_no" >No</string>
+
+
+    <string name="toast_recording_permissions" >Without agreement recording is unavailable</string>
+    <string name="notification_channel_id" translatable="false">RecordServiceA</string>
+    <string name="notification_channel_name" translatable="false">RecorderA</string>
+</resources>
