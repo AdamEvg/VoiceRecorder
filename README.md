@@ -2,7 +2,7 @@
 ____
 * MVVM
 * ViewModel
-* LifeCycle
+* LiveData
 * DataBinding
 * Room
 * Coroutines
